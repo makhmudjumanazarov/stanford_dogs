@@ -48,7 +48,7 @@ python -m ipykernel install --user --name=stanford_dogs
 <br/>
 <b>Step 5.</b> 
 <pre>
-The `standford_dog.ipynb` notebook can be directly run on Jupyter Notebook
+The `stanford_dog.ipynb` notebook can be directly run on Jupyter Notebook
 </pre> 
 <br/>
 
