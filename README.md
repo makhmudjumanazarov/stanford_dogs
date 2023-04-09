@@ -21,7 +21,7 @@ Sample images of 9 different categories from the dataset:
 ![Images of Dogs](/images/dog_images.png)
 
 ### Getting Started
-The `standford_dog.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
+The `stanford_dog.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
 
 ### Steps
 <br />
