@@ -19,7 +19,7 @@ For running the notebook on your local machine, following pre-requisites must be
 - Matplotlib
 - Tensorflow 2.X
 - Keras
-- 
+
 #### Installation
 **Dependencies:**
 ```
