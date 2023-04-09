@@ -46,9 +46,9 @@ pip install ipykernel
 python -m ipykernel install --user --name=stanford_dogs
 </pre>
 <br/>
-<b>Step 5.</b> Model to Train and Evaluate
+<b>Step 5.</b> 
 <pre>
-Open a CIFAR100.ipynb file via jupyter lab or jupyter notebook commands
+The `standford_dog.ipynb` notebook can be directly run on Jupyter Notebook
 </pre> 
 <br/>
 
