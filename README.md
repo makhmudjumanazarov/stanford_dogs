@@ -40,7 +40,7 @@ pip install -r requirements-gpu.txt
 ```
 
   
-### Steps
+#### Steps
 <br />
 <b>Step 1.</b> Clone this repository: <a href= "https://github.com/makhmudjumanazarov/stanford_dogs.git">this repository: </a>
 via Terminal, cmd or PowerShell
