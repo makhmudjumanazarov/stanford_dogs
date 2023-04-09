@@ -34,7 +34,7 @@ Contents of the dataset:
 
 The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">here.</a>
 
-Sample images of 50 different categories from the dataset:
+Sample images of 9 different categories from the dataset:
 
 ![Images of Dogs](/images/dogs_images.jpeg)
 
