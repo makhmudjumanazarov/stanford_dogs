@@ -26,6 +26,18 @@ For running the notebook on your local machine, following pre-requisites must be
 # With Tensorflow GPU
 pip install -r requirements-gpu.txt
 ```
+### Dataset
+Contents of the dataset:
+- Number of categories: 120
+- Number of images: 20,580
+- Annotations: Class labels, Bounding boxes
+
+The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">here.</a>
+
+Sample images of 50 different categories from the dataset:
+
+![Images of Dogs](/images/dogs_images.jpeg)
+
   
 ### Steps
 <br />
