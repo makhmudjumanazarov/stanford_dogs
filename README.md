@@ -1,5 +1,5 @@
-# Dog Breed Classification using InceptionV3, VGG19 CNN Model and by building the CNN architecture from scratch on Stanford Dogs Dataset
-## Description
+## Dog Breed Classification using InceptionV3, VGG19 CNN Model and by building the CNN architecture from scratch on Stanford Dogs Dataset
+### Description
 The <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">Stanford Dogs Dataset</a> contains images of 120 breeds of dogs from around the world. This dataset has been built using images and annotation from ImageNet for the task of fine-grained image categorization. There are 20,580 images, out of which 12,000 are used for training and 8580 for testing. Class labels and bounding box annotations are provided for all the 12,000 images.
 
 -I have used the InceptionV3 CNN Model, which is pre-trained on the ImageNet dataset for classification. Data augementation has been used for making the model generalize better and also to avoid overfitting. The model achieved an accuracy of 80% on validation set, which is decent for this dataset.
@@ -8,7 +8,7 @@ The <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">Stanford Dogs D
 
 -In last place,  I built vgg19 architecture from scratch via Tensorflow. I didn't use data augementation in this either for making the model generalize better. The model achieved an accuracy 1.25% for 10 epochs on validation set. This is a bad situation, but I don't understand why. I think there is not enough information for each class.
   
-## Steps
+### Steps
 <br />
 <b>Step 1.</b> Clone this repository: https://github.com/makhmudjumanazarov/CIFAR100.git via Terminal, cmd or PowerShell
 <br/><br/>
@@ -38,7 +38,7 @@ Open a CIFAR100.ipynb file via jupyter lab or jupyter notebook commands
 <br/>
 
 
-# CIFAR100 - Streamlit - Demo
+## CIFAR100 - Streamlit - Demo
 
 CIFAR100 via Streamlit 
 
