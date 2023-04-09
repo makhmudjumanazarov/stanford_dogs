@@ -36,7 +36,7 @@ The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86
 
 Sample images of 9 different categories from the dataset:
 
-![Images of Dogs](/images/dogs_images.jpeg)
+![Images of Dogs](/images/dogs_images.png)
 
   
 ### Steps
