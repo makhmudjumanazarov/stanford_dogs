@@ -42,7 +42,7 @@ pip install -r requirements-gpu.txt
   
 #### Steps
 <br />
-<b>Step 1.</b> Clone this repository: <a href= "https://github.com/makhmudjumanazarov/stanford_dogs.git">this repository: </a>
+<b>Step 1.</b> Clone <a href= "https://github.com/makhmudjumanazarov/stanford_dogs.git">this repository </a>
 via Terminal, cmd or PowerShell
 <br/><br/>
 <b>Step 2.</b> Create a new virtual environment 
