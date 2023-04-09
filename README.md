@@ -8,24 +8,6 @@ The <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">Stanford Dogs D
 
 -In last place,  I built vgg19 architecture from scratch via Tensorflow. I didn't use data augementation in this either for making the model generalize better. The model achieved an accuracy 1.25% for 10 epochs on validation set. This is a bad situation, but I don't understand why. I think there is not enough information for each class.
 
-### Getting Started
-The `standford_dog.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
-
-#### Pre-Requisites
-For running the notebook on your local machine, following pre-requisites must be satisfied:
-- NumPy
-- Pandas
-- IPython
-- Matplotlib
-- Tensorflow 2.X
-- Keras
-
-#### Installation
-**Dependencies:**
-```
-# With Tensorflow GPU
-pip install -r requirements-gpu.txt
-```
 ### Dataset
 Contents of the dataset:
 - Number of categories: 120
@@ -34,43 +16,45 @@ Contents of the dataset:
 
 The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">here.</a>
 
-Sample images of 50 different categories from the dataset:
+Sample images of 9 different categories from the dataset:
 
-![Images of Dogs](/images/dogs_images.jpeg)
+![Images of Dogs](/images/dog_images.png)
 
-  
+### Getting Started
+The `standford_dog.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
+
 ### Steps
 <br />
-<b>Step 1.</b> Clone this repository: https://github.com/makhmudjumanazarov/CIFAR100.git via Terminal, cmd or PowerShell
+<b>Step 1.</b> Clone <a href= "https://github.com/makhmudjumanazarov/stanford_dogs.git">this repository </a>
+via Terminal, cmd or PowerShell
 <br/><br/>
 <b>Step 2.</b> Create a new virtual environment 
 <pre>
-python -m venv cifar100
+python -m venv stanford_dogs
 </pre> 
 <br/>
 <b>Step 3.</b> Activate your virtual environment
 <pre>
-source cifar100/bin/activate # Linux
-.\cifar100\Scripts\activate # Windows 
+source stanford_dogs/bin/activate # Linux
 </pre>
 <br/>
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
 <pre>
 python -m pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements-gpu.txt # With Tensorflow GPU
 pip install ipykernel
-python -m ipykernel install --user --name=cifar100
+python -m ipykernel install --user --name=stanford_dogs
 </pre>
 <br/>
-<b>Step 5.</b> Model to Train and Evaluate
+<b>Step 5.</b> 
 <pre>
-Open a CIFAR100.ipynb file via jupyter lab or jupyter notebook commands
+The `standford_dog.ipynb` notebook can be directly run on Jupyter Notebook
 </pre> 
 <br/>
 
 
-## CIFAR100 - Streamlit - Demo
+## Stanford dogs - Streamlit - Demo
 
-CIFAR100 via Streamlit 
+Stanford dogs via Streamlit 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/makhmudjumanazarov/CIFAR100/main/app.py)
