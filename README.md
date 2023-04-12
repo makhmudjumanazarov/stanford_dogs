@@ -6,7 +6,7 @@ The <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">Stanford Dogs D
 
 -Then I have used the VGG19 CNN Model, which is pre-trained on the ImageNet dataset for classification. Data augementation hasn't been used for making the model generalize better. The model achieved an accuracy 23% on validation set. This is not a good situation, but I don't understand why.
 
--In last place,  I built vgg19 architecture from scratch via Tensorflow. I didn't use data augementation in this either for making the model generalize better. The model achieved an accuracy 1.25% for 10 epochs on validation set. This is a bad situation, but I don't understand why. I think there is not enough information for each class.
+-In last place,  I built vgg19 architecture from scratch via Tensorflow. I didn't use data augementation in this either for making the model generalize better. The model achieved an accuracy 1.25% in 10 epochs on validation set. This is a bad situation, but I don't understand why. I think there is not enough information for each class.
 
 ### Dataset
 Contents of the dataset:
