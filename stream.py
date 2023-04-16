@@ -7,7 +7,7 @@ from PIL import Image
 
 
 # Load the trained model
-model_load = tf.keras.models.load_model('model')
+model_load = tf.keras.models.load_model('model/model_InceptionV3.h5')
 
 # Define the class labels
 labels = ['Chihuahua', 'Japanese_spaniel', 'Maltese_dog', 'Pekinese', 'Shih', 'Blenheim_spaniel', 'papillon', 'toy_terrier', 'Rhodesian_ridgeback', 'Afghan_hound',
