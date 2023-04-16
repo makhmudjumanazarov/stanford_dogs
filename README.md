@@ -41,7 +41,7 @@ source stanford_dogs/bin/activate # Linux
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
 <pre>
 python -m pip install --upgrade pip
-pip install -r requirements-gpu.txt # With Tensorflow GPU
+pip install -r requirements.txt # With Tensorflow GPU
 pip install ipykernel
 python -m ipykernel install --user --name=stanford_dogs
 </pre>
